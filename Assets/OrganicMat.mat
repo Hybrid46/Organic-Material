@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OrganicMat
+  m_Shader: {fileID: -6465566751694194690, guid: 75e59e497b5e65f4ca551c648c99d4fa,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _EMISSION
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AOAdditive: 1
+    - _AOMultiply: 1
+    - _Color1Mult: 0
+    - _EMISSION: 1
+    - _Emission1Mult: 1
+    - _Extend: 0
+    - _MetallicAdditive: 0
+    - _MetallicMultiply: 0
+    - _NormalMax: 2
+    - _NormalMin: -2
+    - _NormalStrength: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _SmoothnessAdditive: 0.5
+    - _SmoothnessMultiply: 0.25
+    - _brightness: 2
+    - _iterations: 16
+    - _rippleMaxFrequency: 1.4
+    - _rippleSpeed: 5
+    - _rippleStrength: 0.9
+    - _rotationStep: 5
+    - _scale: 8
+    - _scaleMultStep: 1.2
+    - _uvAnimationSpeed: 3.5
+    m_Colors:
+    - _Color1: {r: 0, g: 0.21004774, b: 0.26415092, a: 1}
+    - _Color2: {r: 1, g: 0.3993749, b: 0, a: 1}
+    - _Emission1: {r: 0, g: 0, b: 0, a: 0}
+    - _Emission2: {r: 1.958027, g: 0.07909579, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &2121615392783409699
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 8
